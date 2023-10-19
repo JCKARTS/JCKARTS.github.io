@@ -1,0 +1,67 @@
+.greybox {
+    display: box;
+    background-color: #D3D3D3;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: 10px;
+    padding-left: 10px;
+    border: 2px solid transparent;
+    text-align: left;
+    border-radius: 3px;
+}
+
+header {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 10px 0;
+
+}
+
+table {
+    border-collapse: collapse;
+    position: fixed;
+    text-align: left;
+    padding: 5px;
+}
+
+tr {
+    border: solid 2px;
+    text-decoration: none;
+}
+
+#navbar {
+    display: flexbox;
+    position: sticky;
+    top: 0;
+    overflow: 0;
+    justify-content: flex-end;
+    background-color: white;
+    margin: 3px;
+
+}
+
+.right {
+    display: flexbox;
+    position: absolute;
+    top: 0;
+    border-left: 2px;
+    left: 260px;
+    flex-direction: column right;
+    overflow: hidden;
+    justify-content: right;
+}
+
+thead th {
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 25px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: white;
+    }
+}
