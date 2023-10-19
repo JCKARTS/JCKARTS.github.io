@@ -1,0 +1,25 @@
+navbar li {
+    display: inline;
+    padding: space-around;
+    margin: 10px;
+    color: white;
+    position: fixed;
+
+
+}
+
+navbar {
+    display: flex;
+    background-color: black;
+}
+
+.portfolio {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.info {
+    padding: 2px;
+    margin: 5px;
+    letter-spacing: space-evenly;
+}
