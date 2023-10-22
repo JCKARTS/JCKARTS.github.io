@@ -1,0 +1,266 @@
+/* Psuedo selectors */
+:root {
+    --Headertext: "Verdana";
+    --Headercolor: ;
+    --background-1: white;
+    --Navlink: "Sans-serif";
+    --NavHover: Blue;
+    --HeaderBckrnd: white;
+}
+
+
+
+
+/* Navigation links styling */
+.navbar li {
+    display: inline;
+    z-index: 2;
+    overflow: hidden;
+
+}
+
+.navbar>ul>li>a {
+    display: flexbox;
+    text-decoration: none;
+    color: black;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-family: var(--Navlink);
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+
+
+}
+
+.navbar>ul>li>a:hover {
+    color: var(--NavHover);
+    background-color: red;
+    box-shadow: 2px 2px black;
+    text-decoration: underline;
+    opacity: .75;
+}
+
+.navbar>ul {
+    display: flexbox;
+    top: 40px;
+    position: fixed;
+
+}
+
+/* Top banner */
+.banner {
+    font-size: 40px;
+    font-family: var(--Headertext);
+    justify-content: center;
+    text-align: center;
+    display: inline block;
+    left: 40vw;
+    position: fixed;
+    padding-top: 35px;
+    text-decoration: underline;
+    color: var(--Headercolor);
+    text-decoration-style: dotted;
+    z-index: 2;
+    overflow: hidden;
+    background-color: var(--HeaderBckrnd);
+}
+
+.header {
+    background-color: var(--HeaderBckrnd);
+    width: 98vw;
+    height: 13%;
+    display: flexbox;
+    margin: none;
+    overflow: hidden;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 4;
+    border-radius: 20px;
+    font-weight: 800;
+    max-width: 98vw;
+    position: fixed;
+    overflow: hidden;
+}
+
+/* Colors section */
+.colors {
+    display: inline;
+
+
+}
+
+fieldset {
+    position: relative;
+    top: 150px;
+    border-radius: 5px;
+
+}
+
+legend {
+    text-decoration: underline;
+}
+
+.colors {
+    margin: 10px;
+    align-content: center;
+}
+
+.color-box-1 {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    margin: 30px auto;
+    min-height: 100px;
+    background-color: #F1F2EB;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.cb1t {
+
+    color: red;
+    border-left: 13px solid;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+
+}
+
+.color-box-2 {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    background-color: #D8DAD3;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.color-box-3 {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    background-color: #A4C2A5;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.color-box-4 {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    background-color: #566246;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.color-label {
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    font-family: "poppins", sans-serifs;
+}
+
+.color-hex {
+    display: block;
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.font-panel-1 {
+    display: inline-block;
+    width: 45%;
+}
+
+.font-panel-2 {
+    display: inline-block;
+    width: 45%;
+}
+
+.font-panel-3 {
+    display: inline-block;
+    width: 45%;
+}
+
+.poppins-0 {
+    font-family: "poppins";
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.poppins-1 {
+    font-family: "poppins";
+    font-weight: 100;
+}
+
+.poppins-2 {
+    font-family: "poppins";
+    font-weight: 300;
+}
+
+.poppins-3 {
+    font-family: "poppins";
+    font-weight: 900;
+}
+
+.barlow-0 {
+    font-family: "barlow";
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.barlow-1 {
+    font-family: "barlow";
+    font-weight: 100;
+}
+
+.barlow-2 {
+    font-family: "barlow";
+    font-weight: 300;
+}
+
+.barlow-3 {
+    font-family: "barlow";
+    font-weight: 500 bold;
+}
+
+.dm-0 {
+    font-family: "DM-Sans";
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.dm-1 {
+    font-family: "DM-Sans";
+    font-weight: 100 lighter;
+}
+
+.dm-2 {
+    font-family: "DM-Sans";
+    font-weight: 300;
+}
+
+.dm-3 {
+    font-family: "DM-Sans";
+    font-weight: 600;
+}
+
+.list {
+    text-decoration: none;
+    list-style: square;
+
+}
+
+h1,
+h2,
+h3 {
+    text-decoration: underline;
+}
