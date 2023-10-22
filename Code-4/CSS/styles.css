@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+a {
+    color: seashell;
+}
+
+h2 h3 h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+.flex-c {
+    display: flex;
+    justify-content: center;
+    flex-direction: wrap;
+}
+
+header {
+    width: 100%;
+    height: 69px;
+    z-index: 1;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    position: fixed;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.banner-1 {
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1vh6s74*_ga*NzkyNjk3MTIzLjE2OTcxNTY2NjE.*_ga_3LRZM6TM9L*MTY5Nzc0MTMwMi44LjAuMTY5Nzc0MTMwMi42MC4wLjA.");
+    padding-top: 100px;
+    background-repeat: no-repeat, repeat;
+    align-content: center;
+    justify-content: center;
+    background-size: cover;
+
+}
+
+
+.content {
+    margin-top: 325px;
+    align-content: center;
+    background-color: black;
+    width: 100%;
+    padding: auto;
+    text-align: center;
+
+
+}
+
+.tom {
+    padding: 100px;
+
+}
+
+.new-tea {
+    max-width: 1000px;
+    display: flexbox;
+    flex-wrap: wrap;
+    padding: auto;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+figure img #small-box {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.tea-1,
+.tea-2,
+.tea-3,
+.tea-4,
+.tea-5 {
+    padding-top: 10px;
+    display: inline-flex;
+    height: 200px;
+    width: 300px;
+    object-fit: scale-down;
+    flex-direction: column;
+    margin: 20px 10px;
+
+}
+
+.small-t {
+    padding-top: 10px;
+}
+
+.locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1sme9vx*_ga*NzkyNjk3MTIzLjE2OTcxNTY2NjE.*_ga_3LRZM6TM9L*MTY5Nzk4ODQzOS45LjEuMTY5Nzk4ODQ2MC4zOS4wLjA.");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat, repeat;
+    align-content: center;
+    justify-content: center;
+    background-size: cover;
+
+}
+
+.content-2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.box-elements {
+    display: inline-flex;
+    height: 500px;
+    padding-top: 10px;
+    align-content: center;
+
+
+}
+
+.local {
+    display: inline-flex;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0.9;
+    margin: 10px 40px;
+}
+
+mid-bottom {
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+}
