@@ -3,31 +3,31 @@
 
 
 
-const randmess = () =>{
-  let newmess =[];
-  const Top = ['Hello', 'Hi', 'Welcome','How','Its', "Will"];
-  const mid = ['are','a','is','to'];
-  const bot = ['you','man','this', 'city','dog','cat'];
-  
-  
-  function Trand(){
-  return Math.floor(Math.random() * 5);
-}
-  let i = Trand();
-  newmess += Top[i]+ ' ';
-  
-  function Mrand(){
-  return Math.floor(Math.random() * 3);
-}
-  let j = Mrand();
-  newmess += mid[j]+ ' ';
-  function Brand(){
-  return Math.floor(Math.random() * 5);
-}
-  let k = Brand();
-  newmess += bot[k]+'.';
-  return newmess;
-  
+function randmess() {
+    let newmess = [];
+    const Top = ['Hello', 'Hi', 'Welcome', 'How', 'Its', "Will"];
+    const mid = ['are', 'a', 'is', 'to'];
+    const bot = ['you', 'man', 'this', 'city', 'dog', 'cat'];
+
+
+    function Trand() {
+        return Math.floor(Math.random() * 5);
+    }
+    let i = Trand();
+    newmess += Top[i] + ' ';
+
+    function Mrand() {
+        return Math.floor(Math.random() * 3);
+    }
+    let j = Mrand();
+    newmess += mid[j] + ' ';
+    function Brand() {
+        return Math.floor(Math.random() * 5);
+    }
+    let k = Brand();
+    newmess += bot[k] + '.';
+    return newmess;
+
 }
 
 console.log(randmess());
